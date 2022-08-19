@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/****************** Header ***************/
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    padding-right: 50px;
+ 
+ 
+    padding: 50px 0;
+}
+
+.logoContainer h1 {
+    font-size: 44px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoContainer img {
+    width: 60px;
+    height: 60px;
+}
+
+.linksContainer {
+    padding: 50px 0;
+}
+
+
+.linksContainer .links {
+    display: flex;     
+    list-style-type: none;
+    gap: 5px;
+}
+
+.linksContainer .links li {
+    padding: 0px;
+}
+
+.linksContainer .links img {
+    padding: 0px;    
+}
+
+
+
+
+/*************** Main*********************/
+
+.postContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+ 
+.postContainer .PostText h1 {
+    font-size: 45px;
+    
+}
+ 
+.postContainer .postPrint {
+    display: flex;   
+    width: 20px;
+    height: 20px;  
+    padding: 30px;
+}
+
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+    
+}
+
+.mainContainer .mainImg{
+    width: 90%;
+}
+
+.recipeContainer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-image: url('assests/list-bg.png');
+    height: auto;
+    font-size: 32px;
+     
+     
+    background-color: aqua;
+}
+
+.col  {
+    padding: 50px;
+}
+
+
+.authorContainer {
+    margin-top: 100px;
+    display: flex;
+ 
+    
+}
+.btn {
+    background-color: rgb(238, 72, 12);
+    padding: 20px 50px;
+}
+ 
+
+/**************** Footer **************/
+
+.footerContainer {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 32px;
+    color: gray;
+    padding: 150px;
+
+}
+
+.hr6 {
+    height: 70px;
+    background: url(assests/small-logo.png) no-repeat center;
+    border: none;
+    margin-top: -40px;
+
+  }
